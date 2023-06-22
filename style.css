@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main{
+    height: 100vh;
+    display:flex;
+    
+}
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 500px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+   
+    
+}
+
+.wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+    
+
+}
+
+
+header{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+header img{
+    width: 120px;
+    margin-bottom: 80px;
+    
+}
+header h1 {
+    color: #333;
+    margin-bottom:30px ;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 320px;
+    
+}
+
+.input{
+    width: 100%;
+    padding:20px 10px 10px;
+    background-color: rgb(240, 239, 239);
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.input:focus{
+    border: 2px solid #383838;
+    background-color:rgb(247, 247, 247) ;
+}
+
+span{
+    position: absolute;
+    padding: 18px 14px;
+    color: rgb(161, 159, 159);
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 700;
+    cursor:text;
+    transition: all 0.3s;
+}
+
+.span-active{
+    font-size: 0.6rem;
+    padding: 0;
+    margin-top: 4px;
+    margin-left: 6px;
+
+}
+
+.buttons{
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin:25px 0 15px;
+
+}
+
+.buttons button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.buttons img{
+    width: 15px;
+    cursor: pointer;
+        
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
+
+
+
+#face-icon{
+    background-color:#1877F2;
+}
+
+#google-icon{
+    background-color: white;
+}
+#apple-icon{
+    background-color: black;
+}
+
+#xbox-icon{
+    background-color: green;
+}
+
+.label-checkbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 184px;
+    
+}
+.login__button{
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    margin: 60px 0;
+
+}
+
+.login__button svg{
+    width: 30px;
+    fill:white;
+    
+}
+
+.login__button:disabled{
+    border: 2px solid rgb(241, 239, 239);
+    background-color :#fcfafa ;
+    cursor: auto;
+}
+
+.login__button:disabled svg{
+    fill:rgb(231, 230, 230);
+    
+}
+
+.creat-acc{
+    font-weight: 700;
+    color: rgb(161, 159, 159);
+    font-size: .9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creat-acc a {
+    text-decoration: none;
+    color: rgb(161, 159, 159);
+   
+
+}
+
+.creat-acc a:hover{
+    text-decoration: underline;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/jettwall.jpg);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+}
